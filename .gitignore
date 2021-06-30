@@ -1,0 +1,27 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# ignore Maven generated target folders
+*/target/
+/target/
+target/
+*/logs/
+/logs/
+logs/
+
+# ignore eclipse files
+.project
+.classpath
+.settings
+.metadata
+.externalToolBuilders
+/bin/
+
+#ignore idea files
+.idea
+*.iml
+/.idea
