@@ -13,7 +13,7 @@ import java.util.List;
  * @author Rong.Jia
  */
 @Data
-@ConfigurationProperties("swagger")
+@ConfigurationProperties(prefix = "swagger")
 public class SwaggerProperties {
 	/**
 	 * swagger会解析的包路径

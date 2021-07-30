@@ -28,7 +28,7 @@ public class AuthUtils {
         String account = Objects.requireNonNull(requestAttributes).getRequest().getHeader(AuthConstant.ACCOUNT);
 
         if (StrUtil.isBlank(account)) {
-            account = AuthConstant.ACCOUNT;
+            account = AuthConstant.ADMINISTRATOR;
         }
 
         return account;

@@ -46,4 +46,5 @@ public class Ldap2Properties {
     private String ou;
 
 
+
 }
